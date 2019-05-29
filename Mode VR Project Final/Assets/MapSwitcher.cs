@@ -26,6 +26,10 @@ public class MapSwitcher : MonoBehaviour
         LoadData();
     }
 
+    private void Start()
+    {
+        Initialize();
+    }
     public void Update()
     {
         print(Mathf.Round(mapChangeValue.axis.x));
