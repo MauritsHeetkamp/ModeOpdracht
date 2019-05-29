@@ -30,7 +30,6 @@ public class Teleporter : MonoBehaviour
         {
             if (teleport.GetStateDown(teleportSource))
             {
-                teleportingObject = Instantiate(teleportObject);
                 lineRenderer.enabled = true;
             }
             RaycastHit hitObject;
@@ -39,6 +38,10 @@ public class Teleporter : MonoBehaviour
             {
                 if (hitObject.transform.tag == teleportableTag)
                 {
+                    if(teleportingObject == null)
+                    {
+                        teleportingObject = Instantiate(teleportObject);
+                    }
                     canTP = true;
                     teleportingObject.transform.position = hitObject.point;
                     lineRenderer.SetPosition(1, hitObject.point);

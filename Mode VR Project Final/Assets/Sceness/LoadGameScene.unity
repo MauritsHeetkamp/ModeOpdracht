@@ -192,10 +192,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 680989415, guid: 29b185b877c42ea45b6b023666d40f15, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 680989416, guid: 29b185b877c42ea45b6b023666d40f15, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -239,19 +235,6 @@ PrefabInstance:
     - target: {fileID: 680989416, guid: 29b185b877c42ea45b6b023666d40f15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031862750, guid: 29b185b877c42ea45b6b023666d40f15, type: 3}
-      propertyPath: maps.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031862750, guid: 29b185b877c42ea45b6b023666d40f15, type: 3}
-      propertyPath: maps.Array.data[1].mapIcon
-      value: 
-      objectReference: {fileID: 21300000, guid: 5697c26ee2ef0c848996640f6a3d3432,
-        type: 3}
-    - target: {fileID: 1031862750, guid: 29b185b877c42ea45b6b023666d40f15, type: 3}
-      propertyPath: maps.Array.data[1].mapName
-      value: SampleScene-Mike
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29b185b877c42ea45b6b023666d40f15, type: 3}

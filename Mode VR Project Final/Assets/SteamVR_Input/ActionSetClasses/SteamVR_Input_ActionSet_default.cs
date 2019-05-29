@@ -89,11 +89,11 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Vector2 trackPosition
+        public virtual SteamVR_Action_Vector2 trackPos
         {
             get
             {
-                return SteamVR_Actions.default_trackPosition;
+                return SteamVR_Actions.default_trackPos;
             }
         }
         

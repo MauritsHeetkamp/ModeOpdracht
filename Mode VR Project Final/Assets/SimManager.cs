@@ -13,7 +13,7 @@ public class SimManager : MonoBehaviour
     {
         if (instantLoad)
         {
-            LoadMap("SampleScene");
+            LoadMap("SampleScene-Mike");
         }
     }
 
