@@ -22,7 +22,6 @@ public class MapSwitcher : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        GameObject.FindGameObjectWithTag("Manager").GetComponent<UIManager>().mapSwitcher = gameObject;
         LoadData();
     }
 

@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     public SteamVR_Action_Boolean mapSwitcherButton;
 
     // Update is called once per frame
+
     void Update()
     {
         if (mapSwitcherButton.GetStateDown(mapSwitcherSource))

@@ -58,7 +58,7 @@ public class Teleporter : MonoBehaviour
         }
         else
         {
-            if (teleport.GetStateUp(teleportSource))
+            if (teleport.GetStateUp(teleportSource) && teleportingObject)
             {
                 lineRenderer.enabled = false;
                 Teleport(teleportingObject.transform.position);
