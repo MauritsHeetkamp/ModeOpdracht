@@ -690,7 +690,7 @@ MonoBehaviour:
     actionPath: /actions/default/in/Teleport
     needsReinit: 0
   mapChangeValue:
-    actionPath: /actions/default/in/trackPosition
+    actionPath: /actions/default/in/trackPos
     needsReinit: 0
 --- !u!1 &1144117930
 GameObject:

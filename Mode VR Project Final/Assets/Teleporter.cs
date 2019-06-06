@@ -28,10 +28,6 @@ public class Teleporter : MonoBehaviour
     {
         if (teleport.GetState(teleportSource))
         {
-            if (teleport.GetStateDown(teleportSource))
-            {
-                lineRenderer.enabled = true;
-            }
             RaycastHit hitObject;
             lineRenderer.SetPosition(0, lineRenderer.transform.position);
             if (Physics.Raycast(teleportHand.transform.position, teleportHand.transform.forward, out hitObject, 1000, teleportableLayers, QueryTriggerInteraction.Ignore))
@@ -40,6 +36,7 @@ public class Teleporter : MonoBehaviour
                 {
                     if(teleportingObject == null)
                     {
+                        lineRenderer.enabled = true;
                         teleportingObject = Instantiate(teleportObject);
                     }
                     canTP = true;
@@ -68,8 +65,8 @@ public class Teleporter : MonoBehaviour
     }
     public void Teleport(Vector3 position)
     {
-        //position.x -= mainCamera.localPosition.x;
-        //position.z -= mainCamera.localPosition.z;
+        position.x -= mainCamera.localPosition.x;
+        position.z -= mainCamera.localPosition.z;
         transform.position = position;
     }
 }

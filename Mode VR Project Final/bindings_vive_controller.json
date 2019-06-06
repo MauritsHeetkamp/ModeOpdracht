@@ -199,6 +199,9 @@
             },
             {
                "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/grabpinch"
+                  },
                   "pull" : {
                      "output" : "/actions/default/in/squeeze"
                   }
@@ -208,6 +211,9 @@
             },
             {
                "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/grabpinch"
+                  },
                   "pull" : {
                      "output" : "/actions/default/in/squeeze"
                   }

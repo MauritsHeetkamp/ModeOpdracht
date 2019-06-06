@@ -283,13 +283,9 @@ PrefabInstance:
       propertyPath: lineRenderer
       value: 
       objectReference: {fileID: 1483773063}
-    - target: {fileID: 1031862750, guid: 29b185b877c42ea45b6b023666d40f15, type: 3}
-      propertyPath: mapChangeValue.actionPath
-      value: /actions/default/in/trackPos
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031862750, guid: 29b185b877c42ea45b6b023666d40f15, type: 3}
-      propertyPath: interactButton.actionPath
-      value: /actions/default/in/GrabPinch
+    - target: {fileID: 680989417, guid: 29b185b877c42ea45b6b023666d40f15, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2126704438, guid: 29b185b877c42ea45b6b023666d40f15, type: 3}
